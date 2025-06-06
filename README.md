@@ -1,7 +1,7 @@
 # Analyzing-Crime-in-Los-Angeles
 
 ## Overview
-This is an EDA project that uses a modified version of [Los Angeles Open Data](https://data.lacity.org/) provided by [DataCamp](https://data.lacity.org/). The goal is to provide miningfull insights to the Los Angeles Police Department by analyzing crime data.
+This is an EDA project that uses a modified version of [Los Angeles Open Data](https://data.lacity.org/). The project Analyzing Crime in Los Angeles and the modified data are provided by [DataCamp](https://data.lacity.org/). The goal is to provide miningfull insights to the Los Angeles Police Department by analyzing crime data.
 
 ## Packages Required
 
