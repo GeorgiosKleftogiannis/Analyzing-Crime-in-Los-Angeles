@@ -49,7 +49,7 @@ Data columns (total 12 columns):
 dtypes: int64(2), object(10)
 memory usage: 17.0+ MB
 
-## Q1
+## Peak hour crime
 Now, we want to calculate the hour during which most crimes are committed. Since the time of occurrence is stored as an object, we extract the first two characters (representing the hour) using slicing and convert them to integers. The most frequent hour is stored in the variable peak_crime_hour.
 
 ```python
@@ -60,7 +60,7 @@ print("peak hour crime =", peak_crime_hour)
 ```
 peak hour crime = 12
 
-## Q2
+## Peak night crime location
 To determine the most dangerous location between 10 PM and 4 AM, we filter the data to include only crimes that occurred during this time range and count the frequency of each location. The variable peak_night_crime_location stores the location with the highest number of crimes during these hours.
 
 ```python
@@ -71,7 +71,7 @@ print("peak night crime location =", peak_night_crime_location)
 ```
 peak night crime location = Central
 
-## Q3
+## Victim ages frequencies
 Finally, we split the ages of the victims into seven bins. Then, we count the frequency in each bin to identify the age range with the highest number of crime victims.
 
 ```python
