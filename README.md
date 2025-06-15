@@ -13,7 +13,7 @@ import seaborn as sns
 ```
 
 ## Data exploration
-We start by loading the crimes.csv file as a DataFrame using pandas.
+We begin by loading the crimes.csv file as a DataFrame using pandas.
 
 ```python
 crimes = pd.read_csv("crimes.csv", dtype={"TIME OCC": str})
