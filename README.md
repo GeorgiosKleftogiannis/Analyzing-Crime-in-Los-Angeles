@@ -82,13 +82,15 @@ victim_ages_frequencies = crimes["Age Group"].value_counts()
 print(victim_ages_frequencies)
 victim_ages = victim_ages_frequencies
 ```
-26-34    47470
-35-44    42157
-45-54    28353
-18-25    28291
-55-64    20169
-65+      14747
-0-17      4528
+| #  | Column        | 
+|----|---------------|-
+|26-34|    47470 |
+|35-44|    42157 |
+|45-54|    28353 |
+|18-25|    28291 |
+|55-64|    20169 |
+|65+  |    14747 |
+|0-17 |     4528 |
 Name: Age Group, dtype: int64
 
 
