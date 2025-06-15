@@ -46,8 +46,6 @@ Data columns (total 12 columns):
 | 9  | Weapon Desc   | 73502          | object |
 | 10 | Status Desc   | 185715         | object |
 | 11 | LOCATION      | 185715         | object |
-dtypes: int64(2), object(10)
-memory usage: 17.0+ MB
 
 ## Peak hour crime
 Now, we want to calculate the hour during which most crimes are committed. Since the time of occurrence is stored as an object, we extract the first two characters (representing the hour) using slicing and convert them to integers. The most frequent hour is stored in the variable peak_crime_hour.
@@ -91,6 +89,5 @@ victim_ages = victim_ages_frequencies
 | 5  |   55-64   |    20169 |
 | 6  |   65+     |    14747 |
 | 7  |   0-17    |     4528 |
-Name: Age Group, dtype: int64
 
-
+![age_group_histogram](image/hist.png)
